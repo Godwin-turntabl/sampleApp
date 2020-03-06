@@ -1,0 +1,57 @@
+                body {
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                
+                h1 {
+                    font-size: 1em;
+                    background-color: rgba(0, 0, 0, .5)
+                }
+                
+                section {
+                    background-color: rgba(255, 230, 21, 061);
+                    height: 120px;
+                    width: 45%;
+                    margin-top: 0.5em;
+                    display: block;
+                    margin: 0 auto;
+                    margin-bottom: 1em;
+                }
+                
+                h1::after {
+                    content: ' Mobile-site '
+                }
+                
+                @media screen and (min-width:765px) {
+                    h1 {
+                        font-size: 1.5em;
+                        background-color: rgba(255, 43, 0, .5)
+                    }
+                    h1::after {
+                        content: ' Tabbed-site '
+                    }
+                    section {
+                        background-color: rgba(255, 230, 21, 061);
+                        height: 120px;
+                        width: 45%;
+                        margin: auto;
+                        display: inline-block;
+                    }
+                }
+                
+                @media screen and (min-width:900px) {
+                    h1 {
+                        font-size: 2.0em;
+                        background-color: rgba(100, 255, 0, .5)
+                    }
+                    h1::after {
+                        content: ' Desktop size '
+                    }
+                    section {
+                        background-color: rgba(255, 230, 21, 061);
+                        height: 120px;
+                        width: 45%;
+                        display: inline-block;
+                        margin: auto;
+                        margin-bottom: 1em;
+                    }
+                }

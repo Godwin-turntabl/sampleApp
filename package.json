@@ -1,0 +1,19 @@
+{
+    "name": "plunk",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Godwin",
+    "license": "ISC",
+    "dependencies": {
+        "animate.css": "^3.7.2",
+        "express": "^4.17.1",
+        "ngf-bootstrap": "0.0.5",
+        "nodemon": "^1.19.2",
+        "wow.js": "^1.2.2"
+    }
+}
